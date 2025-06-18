@@ -55,7 +55,7 @@ library(ggplot2)
 
 # Create scatterplot
 ggplot(mtcars, aes(x = hp, y = mpg)) +
-  geom_point(color = "orange", size = 2) +
+  geom_point(color = "steelblue", size = 2) +
   labs(
     title = "Fuel Efficiency vs Horsepower",
     x = "Horsepower (hp)",
